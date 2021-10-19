@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    text-align:center;
+}
+
+#sol{
+    animation: sol 70s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes sol{
+    0%{
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 700px);
+
+    }
+}
+
+#fundo{
+    animation: fundo 70s infinite linear;
+    transform-origin:center;
+    transform-box: fill-box;
+}
+
+@keyframes fundo {
+    0%{
+        fill: #6495ED;
+    }
+    50%{
+        fill: #6495ED;
+    }
+    75%{
+        fill: #164ec7;
+    }
+
+    100%{
+        fill: #062153;
+    }
+}
+
+.mar{
+    animation: mar 25s infinite linear;
+    transform-origin:center;
+    transform-box: fill-box;
+}
+
+@keyframes mar{
+    0%{
+        transform: translate(-200px, 0px);
+    }
+    100%{
+        transform: translate(400px, 0px);
+    }
+}
