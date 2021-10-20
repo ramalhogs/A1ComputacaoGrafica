@@ -9,7 +9,7 @@ body{
 }
 
 #sol{
-    animation: sol 70s infinite linear;
+    animation: sol 60s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -27,7 +27,7 @@ body{
 }
 
 #fundo{
-    animation: fundo 70s infinite linear;
+    animation: fundo 60s infinite linear;
     transform-origin:center;
     transform-box: fill-box;
 }
@@ -36,13 +36,21 @@ body{
     0%{
         fill: #6495ED;
     }
-    50%{
+
+    42%{
         fill: #6495ED;
     }
-    75%{
-        fill: #164ec7;
+    52%{
+        fill: #c44d28;
+    }
+    62%{
+        fill: #bb5232;
     }
 
+    85%{
+        fill: #164ec7;
+    }
+    
     100%{
         fill: #062153;
     }
@@ -54,7 +62,7 @@ body{
     transform-box: fill-box;
 }
 
-@keyframes mar{
+@keyframes mar{ 
     0%{
         transform: translate(-200px, 0px);
     }
